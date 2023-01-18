@@ -1,0 +1,240 @@
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: #D4AF37;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    /*display: inline-block;*/
+    border: 4px double rgba(255, 255, 255, .25);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    /*position: absolute;*/
+    top: 18%;
+    left: 50%;
+    width: 40em;
+    margin: 0 0 0 -20em;
+}
+
+.title {
+
+    text-align: center;
+    line-height: 70px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: .25em 0 .325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, .5);
+    margin-bottom: 5%;
+
+    /* Clip Background Image */
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    /* Animate Background Image */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    /* Activate hardware acceleration for smoother animations */
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+
+}
+
+
+/* Animate Background Image */
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(imagenes/2.png);
+    border-radius: 24px;
+}
+
+main {
+    width: 960px;
+    height: 570px;
+    margin: auto;
+    padding: 5px;
+}
+
+.texto {
+    float: left;
+
+    width: 70%;
+    height: 90%;
+    border-radius: 24px;
+    display: flex;
+}
+
+.area {
+    float: left;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 60%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+    margin-top: 10%;
+    justify-content: center;
+    border-radius: 24px;
+    text-align: center;
+}
+
+#imagenmunieco {
+    margin-top: 5%;
+    width: 90%;
+    height: 20%;
+    margin-left: 2%;
+}
+
+#texto {
+    margin-left: 7%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: large;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+#texto2 {
+    float: left;
+    margin-left: 10%;
+    color: #0A3871;
+    width: 80%;
+    height: 30%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    white-space: pre-line;
+    border-radius: 24px;
+    text-align: center;
+    position: relative;
+}
+
+.botones {
+    display: inline-block;
+    margin-left: 20%;
+}
+
+#btn-encriptar {
+    padding: 24px;
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+
+    background: black;
+    color: #D4AF37;
+    cursor: grab;
+    margin-top: 10px;
+    /*justify-content: start;*/
+    font-weight: bolder;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+#btn-desencriptar {
+    padding: 24px;
+    width: 200px;
+    height: 60px;
+    border-radius: 24px;
+
+    background: #D4AF37;
+    color: black;
+    cursor: grab;
+    /*justify-content: end;*/
+    font-weight: bolder;
+    transition: all 0.25s;
+}
+
+#btn-encriptar:hover {
+    background-color: #D4AF37;
+    font-size: 20px;
+    color: black
+}
+
+#btn-desencriptar:hover {
+    background-color: black;
+    font-size: 20px;
+    color: #D4AF37;
+}
+
+.mensaje {
+    float: right;
+    border-radius: 24px;
+    width: 28%;
+    height: 60%;
+    margin-top: 5%;
+    color: orangered;
+    font-weight: bolder;
+
+}
+
+#copiar {
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: black;
+    border-radius: 24px;
+    display: none;
+    color: goldenrod;
+    cursor: grab;
+    font-weight: bolder;
+    white-space: normal;
+    text-align: center;
+    transition: all 0.5s;
+    
+}
+
+#copiar:hover {
+    background-color: #D4AF37;
+    font-size: 20px;
+    color: black
+}
+
+footer {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: #D4AF37;
+    font-size: medium;
+    background-color: black;
+    vertical-align: middle;
+}
+
+#imagen {
+    width: 30px;
+    height: 30px;
+    float: left;
+    float: right;
+
+}
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
