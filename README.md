@@ -1,8 +1,8 @@
 
 
-<p align="center"> <img src="imagenes/Logo.png"> </p>
 
 
+<p align="center"> <img src="imagenes/alura.png" width="200" height="130">  <img src="imagenes/one.png"> </p>
 
 
 
@@ -49,7 +49,7 @@ Desarrollado con HTML, CSS y Javascript
 
 
 
-!(../imagenes/encriptador.png)
+![captura pantalla](/imagenes/encriptador.png)
 
 
 ## *Acceso a la aplicación:* :link:
