@@ -49,6 +49,8 @@ Desarrollado con HTML, CSS y Javascript
 
 
 
+!(../imagenes/encriptador.png)
+
 
 ## *Acceso a la aplicación:* :link:
 
